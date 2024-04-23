@@ -18,7 +18,7 @@ header {
     justify-content: space-around;
     margin-top: 10px;
     height: 150px;
-    background: linear-gradient(15deg, black, rgb(167, 3, 22) );
+    background: linear-gradient(15deg, black, rgb(122, 1, 16) );
     color: #9d9d9d ;
     align-items: center;
 }
@@ -35,9 +35,18 @@ header {
     width: 50%;
 }
 
-#links {
+#links a {
     text-decoration: none;
     color: #9d9d9d;
     font-size: 1.2rem;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+#links a:hover{
+    border-bottom: 3px solid #9d9d9d;
+    color: #ff0000;
+    transform: scale(1.1);
 }
 
